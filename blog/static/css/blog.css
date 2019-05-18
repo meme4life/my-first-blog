@@ -3,7 +3,7 @@ h1 a, h2 a { /*This means we're applying our styles to any a element inside of a
 	font-family: 'Lobster';
 }
 body {
-	padding-left: 0;
+	padding-left: 15px;
 }
 .page-header {
 	background-color: #1FDEC0;
@@ -49,6 +49,5 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-	font-family: 'Lobster';
 	color :#000000;
 }
