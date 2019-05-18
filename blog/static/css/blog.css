@@ -1,11 +1,11 @@
-h1 a ,h2 a{ /*This means we're applying our styles to any a element inside of an h1,h2 element; */
+h1 a, h2 a { /*This means we're applying our styles to any a element inside of an h1,h2 element; */
 	color: #1FDEC0; 
 	font-family: 'Lobster';
 }
-body{
+body {
 	padding-left: 0;
 }
-.page-header{
+.page-header {
 	background-color: #1FDEC0;
 	margin-top: 0;
 	padding: 20px 20px 20px 40px;
@@ -22,7 +22,7 @@ body{
 }
 
 h1, h2, h3, h4 {
-	font-size:'Lobster',cursive;
+	font-family: 'Lobster', cursive;
 }
 
 .date {
@@ -33,11 +33,11 @@ h1, h2, h3, h4 {
 	float: right;
 }
 
-.post_form textarea, .post_form input{
+.post-form textarea, .post-form input {
 	width: 100%;
 }
 
-.top_menu, .top_menu:hover, .top_menu:visited {
+.top-menu, .top-menu:hover, .top-menu:visited {
 	color: #ffffff;
 	float: right;
 	font-size: 26pt;
@@ -49,5 +49,6 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
+	font-family: 'Lobster';
 	color :#000000;
 }
